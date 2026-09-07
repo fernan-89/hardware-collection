@@ -1,0 +1,110 @@
+﻿{
+    "asset_id":  "ASSET-REF-0252",
+    "asset_tag":  "REF-AMER-0252",
+    "inventory_id":  "REFERENCE-2026-0252",
+    "serial_number":  "MOCK-LENOVO-0252",
+    "manufacturer":  "Lenovo",
+    "model":  "ThinkSystem SD665 V3",
+    "asset_class":  "HARDWARE",
+    "asset_category":  "GPU_SERVER",
+    "record_type":  "PRODUCT_REFERENCE",
+    "lifecycle_status":  "PROCURED",
+    "operational_status":  "NOT_DEPLOYED",
+    "active":  true,
+    "reference_scope":  {
+                            "manufacturer":  "Lenovo",
+                            "official_product_family":  "ThinkSystem SD665 V3",
+                            "scope":  "Lenovo official product family reference",
+                            "reference_date":  "2026-09-07",
+                            "sku_or_configuration":  "MOCK-LENOVO-0252",
+                            "note":  "Family and model name are based on a public Lenovo portfolio. Identifiers, pricing and deployment values are synthetic."
+                        },
+    "global_allocation":  {
+                              "region":  "AMER",
+                              "country":  "United States",
+                              "corporate_entity":  "Example Global Technology Inc.",
+                              "business_unit":  "Global Infrastructure",
+                              "department":  "Technology",
+                              "cost_center":  "CC-TECH-US-0252",
+                              "assigned_user":  null,
+                              "shared_resource":  "PRODUCT-REFERENCE-0252",
+                              "site_code":  "AMER-STANDARDS",
+                              "location":  "United States Product Standards Lab",
+                              "data_center":  null
+                          },
+    "data_classification":  "INTERNAL",
+    "compliance_matrix":  {
+                              "ISO27001":  {
+                                               "applicable":  true,
+                                               "status":  "REVIEW_REQUIRED",
+                                               "evidence_reference":  "EVIDENCE-ISO27001-0252"
+                                           },
+                              "SOC2_Type2":  {
+                                                 "applicable":  true,
+                                                 "status":  "REVIEW_REQUIRED",
+                                                 "evidence_reference":  "EVIDENCE-SOC2-0252"
+                                             },
+                              "PCI-DSS_v4":  {
+                                                 "applicable":  false,
+                                                 "status":  "NOT_APPLICABLE",
+                                                 "evidence_reference":  null
+                                             },
+                              "vendor_security_review":  {
+                                                             "applicable":  true,
+                                                             "status":  "PENDING",
+                                                             "review_reference":  "VENDOR-REVIEW-0252"
+                                                         }
+                          },
+    "technical_identity":  {
+                               "hostname":  "REF-LENOVO-0252",
+                               "ip_address":  null,
+                               "mac_address":  null,
+                               "network_segment":  null,
+                               "vlan_id":  null
+                           },
+    "procurement":  {
+                        "purchase_order":  null,
+                        "vendor":  "Lenovo",
+                        "acquisition_date":  null,
+                        "deployment_date":  null,
+                        "purchase_price":  null,
+                        "currency":  "USD",
+                        "lease_or_owned":  "REFERENCE_ONLY"
+                    },
+    "warranty_and_support":  {
+                                 "support_contract":  null,
+                                 "support_provider":  "Lenovo",
+                                 "support_level":  "VENDOR_REFERENCE",
+                                 "support_expiration_date":  null
+                             },
+    "maintenance":  {
+                        "maintenance_status":  "NOT_DEPLOYED",
+                        "maintenance_frequency":  null,
+                        "last_maintenance_date":  null,
+                        "next_maintenance_date":  null,
+                        "open_incidents":  0,
+                        "maintenance_history":  [
+
+                                                ]
+                    },
+    "service_management":  {
+                               "business_service":  "Technology Product Standards",
+                               "environment":  "REFERENCE",
+                               "service_owner":  "ARCHITECTURE-REFERENCE-TEAM",
+                               "support_queue":  "PRODUCT-STANDARDS",
+                               "contract_reference":  null
+                           },
+    "tags":  [
+                 "official-product-family",
+                 "mock-reference",
+                 "lenovo",
+                 "gpu_server"
+             ],
+    "notes":  "Synthetic Lenovo product-family reference. It is not a purchase entitlement or proof of current availability.",
+    "location_id":  "LOC-AMER-US-AUS-01",
+    "data_center_id":  "DC-AMER-US-AUS-01",
+    "internet_circuit_ids":  [
+                                 "CIRCUIT-AMER-US-AUS-01"
+                             ],
+    "primary_connectivity_provider":  "Example Fiber North America"
+}

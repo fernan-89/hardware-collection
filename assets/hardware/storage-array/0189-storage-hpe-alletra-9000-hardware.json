@@ -1,0 +1,102 @@
+﻿{
+    "asset_id":  "ASSET-REF-0189",
+    "asset_tag":  "REF-EMEA-0189",
+    "inventory_id":  "PRODUCT-REFERENCE-2026-0189",
+    "serial_number":  "MOCK-REF-HPE-0189",
+    "manufacturer":  "HPE",
+    "model":  "Alletra 9000",
+    "asset_class":  "HARDWARE",
+    "asset_category":  "STORAGE_ARRAY",
+    "lifecycle_status":  "PROCURED",
+    "operational_status":  "NOT_DEPLOYED",
+    "active":  true,
+    "global_allocation":  {
+                              "region":  "EMEA",
+                              "country":  "Germany",
+                              "corporate_entity":  "Example Global Technology Inc.",
+                              "business_unit":  "Global Infrastructure",
+                              "department":  "Technology",
+                              "cost_center":  "CC-TECH-DE-0189",
+                              "assigned_user":  null,
+                              "shared_resource":  "PRODUCT-REFERENCE-0189",
+                              "site_code":  "EMEA-PRODUCT-REFERENCE",
+                              "location":  "Germany Product Standards Lab",
+                              "data_center":  null
+                          },
+    "data_classification":  "INTERNAL",
+    "compliance_matrix":  {
+                              "ISO27001":  {
+                                               "applicable":  true,
+                                               "status":  "REVIEW_REQUIRED",
+                                               "evidence_reference":  "EVIDENCE-REF-ISO27001-0189"
+                                           },
+                              "SOC2_Type2":  {
+                                                 "applicable":  true,
+                                                 "status":  "REVIEW_REQUIRED",
+                                                 "evidence_reference":  "EVIDENCE-REF-SOC2-0189"
+                                             },
+                              "PCI-DSS_v4":  {
+                                                 "applicable":  false,
+                                                 "status":  "NOT_APPLICABLE",
+                                                 "evidence_reference":  null
+                                             },
+                              "vendor_security_review":  {
+                                                             "applicable":  true,
+                                                             "status":  "PENDING",
+                                                             "review_reference":  "VENDOR-REVIEW-0189"
+                                                         }
+                          },
+    "technical_identity":  {
+                               "hostname":  "REF-HPE-0189",
+                               "ip_address":  null,
+                               "mac_address":  null,
+                               "network_segment":  null,
+                               "vlan_id":  null
+                           },
+    "procurement":  {
+                        "purchase_order":  null,
+                        "vendor":  "HPE",
+                        "acquisition_date":  null,
+                        "deployment_date":  null,
+                        "purchase_price":  null,
+                        "currency":  "USD",
+                        "lease_or_owned":  "REFERENCE_ONLY"
+                    },
+    "warranty_and_support":  {
+                                 "support_contract":  null,
+                                 "support_provider":  "HPE",
+                                 "support_level":  "VENDOR_CATALOG_REFERENCE",
+                                 "support_expiration_date":  null
+                             },
+    "maintenance":  {
+                        "maintenance_status":  "NOT_DEPLOYED",
+                        "maintenance_frequency":  null,
+                        "last_maintenance_date":  null,
+                        "next_maintenance_date":  null,
+                        "open_incidents":  0,
+                        "maintenance_history":  [
+
+                                                ]
+                    },
+    "service_management":  {
+                               "business_service":  "Technology Product Standards",
+                               "environment":  "REFERENCE",
+                               "service_owner":  "ARCHITECTURE-REF-TEAM",
+                               "support_queue":  "PRODUCT-STANDARDS",
+                               "contract_reference":  null
+                           },
+    "tags":  [
+                 "official-product-family",
+                 "mock-catalog",
+                 "hpe",
+                 "storage_array"
+             ],
+    "notes":  "Synthetic product reference reference. This record is not a purchase entitlement or proof of vendor availability.",
+    "record_type":  "PRODUCT_REFERENCE",
+    "location_id":  "LOC-EMEA-GB-LON-01",
+    "data_center_id":  "DC-EMEA-GB-LON-01",
+    "internet_circuit_ids":  [
+                                 "CIRCUIT-EMEA-GB-LON-01"
+                             ],
+    "primary_connectivity_provider":  "Example Global Fiber"
+}

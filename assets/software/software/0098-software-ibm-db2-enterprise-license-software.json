@@ -1,0 +1,114 @@
+﻿{
+    "asset_id":  "ASSET-MOCK-0098",
+    "asset_tag":  "ITAM-APAC-MOCK-0098",
+    "inventory_id":  "INV-2026-0098",
+    "serial_number":  "MOCK-IBM-0098-X7K2",
+    "manufacturer":  "IBM",
+    "model":  "Db2 Enterprise License",
+    "asset_class":  "SOFTWARE",
+    "asset_category":  "SOFTWARE",
+    "lifecycle_status":  "ACTIVE",
+    "operational_status":  "ACTIVE",
+    "active":  true,
+    "global_allocation":  {
+                              "region":  "APAC",
+                              "country":  "Singapore",
+                              "corporate_entity":  "Example Global Technology Inc.",
+                              "business_unit":  "Global Technology",
+                              "department":  "Security",
+                              "cost_center":  "CC-SEC-SG-0098",
+                              "assigned_user":  null,
+                              "shared_resource":  "SHARED-SOFTWARE-0098",
+                              "site_code":  "APAC-MOCK-98",
+                              "location":  "Singapore Enterprise Site",
+                              "data_center":  "DC-APAC-MOCK-98"
+                          },
+    "data_classification":  "RESTRICTED",
+    "compliance_matrix":  {
+                              "ISO27001":  {
+                                               "applicable":  true,
+                                               "status":  "COMPLIANT",
+                                               "evidence_reference":  "EVIDENCE-ISO27001-0098"
+                                           },
+                              "SOC2_Type2":  {
+                                                 "applicable":  true,
+                                                 "status":  "COMPLIANT",
+                                                 "evidence_reference":  "EVIDENCE-SOC2-0098"
+                                             },
+                              "PCI-DSS_v4":  {
+                                                 "applicable":  false,
+                                                 "status":  "NOT_APPLICABLE",
+                                                 "evidence_reference":  null
+                                             },
+                              "privacy_review":  {
+                                                     "applicable":  true,
+                                                     "status":  "COMPLIANT",
+                                                     "last_review_date":  "2026-08-15"
+                                                 }
+                          },
+    "technical_identity":  {
+                               "hostname":  "MOCK-SOFTWARE-0098",
+                               "ip_address":  "198.51.100.108",
+                               "mac_address":  "02:00:5E:00:62:01",
+                               "network_segment":  "CORPORATE-ASSETS",
+                               "vlan_id":  398
+                           },
+    "procurement":  {
+                        "purchase_order":  "PO-MOCK-2026-0098",
+                        "vendor":  "IBM",
+                        "acquisition_date":  "2026-01-15",
+                        "deployment_date":  "2026-02-01",
+                        "purchase_price":  10800,
+                        "currency":  "USD",
+                        "lease_or_owned":  "SUBSCRIPTION"
+                    },
+    "warranty_and_support":  {
+                                 "support_contract":  "SUPPORT-MOCK-0098",
+                                 "support_provider":  "IBM",
+                                 "support_level":  "PREMIUM",
+                                 "support_expiration_date":  "2029-02-01"
+                             },
+    "maintenance":  {
+                        "maintenance_status":  "SCHEDULED",
+                        "maintenance_frequency":  "MONTHLY",
+                        "last_maintenance_date":  "2026-08-01",
+                        "next_maintenance_date":  "2026-11-01",
+                        "open_incidents":  0,
+                        "maintenance_history":  [
+                                                    {
+                                                        "maintenance_id":  "MAINT-MOCK-0098",
+                                                        "date":  "2026-08-01",
+                                                        "type":  "PREVENTIVE",
+                                                        "status":  "COMPLETED"
+                                                    }
+                                                ]
+                    },
+    "service_management":  {
+                               "business_service":  "Db2 Enterprise License",
+                               "environment":  "PRODUCTION",
+                               "service_owner":  "OWNER-MOCK-0098",
+                               "support_queue":  "QUEUE-SECURITY",
+                               "contract_reference":  "CONTRACT-MOCK-0098"
+                           },
+    "tags":  [
+                 "mock-data",
+                 "software",
+                 "apac"
+             ],
+    "notes":  "Synthetic enterprise asset record. All identifiers, network values and references are fictional and reserved for testing.",
+    "software_entitlement":  {
+                                 "license_model":  "SUBSCRIPTION",
+                                 "quantity":  100,
+                                 "assigned_quantity":  75,
+                                 "renewal_date":  "2027-01-15",
+                                 "license_manager":  "SAM-MOCK-TEAM",
+                                 "entitlement_reference":  "ENTITLEMENT-MOCK-0098"
+                             },
+    "record_type":  "ASSET",
+    "location_id":  "LOC-APAC-SG-SIN-01",
+    "data_center_id":  "DC-APAC-MOCK-98",
+    "internet_circuit_ids":  [
+                                 "CIRCUIT-APAC-SG-SIN-01"
+                             ],
+    "primary_connectivity_provider":  "Example Pacific Telecom"
+}

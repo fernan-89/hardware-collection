@@ -1,0 +1,106 @@
+﻿{
+    "asset_id":  "ASSET-MOCK-0038",
+    "asset_tag":  "ITAM-APAC-MOCK-0038",
+    "inventory_id":  "INV-2026-0038",
+    "serial_number":  "MOCK-DELL-0038-X7K2",
+    "manufacturer":  "Dell",
+    "model":  "PowerVault ME4024",
+    "asset_class":  "HARDWARE",
+    "asset_category":  "DATACENTER",
+    "lifecycle_status":  "DEPLOYED",
+    "operational_status":  "ACTIVE",
+    "active":  true,
+    "global_allocation":  {
+                              "region":  "APAC",
+                              "country":  "Singapore",
+                              "corporate_entity":  "Example Global Technology Inc.",
+                              "business_unit":  "Global Technology",
+                              "department":  "Security",
+                              "cost_center":  "CC-SEC-SG-0038",
+                              "assigned_user":  "USER-MOCK-0038",
+                              "shared_resource":  null,
+                              "site_code":  "APAC-MOCK-38",
+                              "location":  "Singapore Enterprise Site",
+                              "data_center":  "DC-APAC-MOCK-38"
+                          },
+    "data_classification":  "CONFIDENTIAL",
+    "compliance_matrix":  {
+                              "ISO27001":  {
+                                               "applicable":  true,
+                                               "status":  "COMPLIANT",
+                                               "evidence_reference":  "EVIDENCE-ISO27001-0038"
+                                           },
+                              "SOC2_Type2":  {
+                                                 "applicable":  true,
+                                                 "status":  "COMPLIANT",
+                                                 "evidence_reference":  "EVIDENCE-SOC2-0038"
+                                             },
+                              "PCI-DSS_v4":  {
+                                                 "applicable":  false,
+                                                 "status":  "NOT_APPLICABLE",
+                                                 "evidence_reference":  null
+                                             },
+                              "privacy_review":  {
+                                                     "applicable":  true,
+                                                     "status":  "COMPLIANT",
+                                                     "last_review_date":  "2026-08-15"
+                                                 }
+                          },
+    "technical_identity":  {
+                               "hostname":  "MOCK-DATACENTER-0038",
+                               "ip_address":  "198.51.100.48",
+                               "mac_address":  "02:00:5E:00:26:01",
+                               "network_segment":  "CORPORATE-ASSETS",
+                               "vlan_id":  338
+                           },
+    "procurement":  {
+                        "purchase_order":  "PO-MOCK-2026-0038",
+                        "vendor":  "Dell",
+                        "acquisition_date":  "2026-01-15",
+                        "deployment_date":  "2026-02-01",
+                        "purchase_price":  4800,
+                        "currency":  "USD",
+                        "lease_or_owned":  "OWNED"
+                    },
+    "warranty_and_support":  {
+                                 "support_contract":  "SUPPORT-MOCK-0038",
+                                 "support_provider":  "Dell",
+                                 "support_level":  "PREMIUM",
+                                 "support_expiration_date":  "2029-02-01"
+                             },
+    "maintenance":  {
+                        "maintenance_status":  "SCHEDULED",
+                        "maintenance_frequency":  "QUARTERLY",
+                        "last_maintenance_date":  "2026-08-01",
+                        "next_maintenance_date":  "2026-11-01",
+                        "open_incidents":  0,
+                        "maintenance_history":  [
+                                                    {
+                                                        "maintenance_id":  "MAINT-MOCK-0038",
+                                                        "date":  "2026-08-01",
+                                                        "type":  "PREVENTIVE",
+                                                        "status":  "COMPLETED"
+                                                    }
+                                                ]
+                    },
+    "service_management":  {
+                               "business_service":  "PowerVault ME4024",
+                               "environment":  "PRODUCTION",
+                               "service_owner":  "OWNER-MOCK-0038",
+                               "support_queue":  "QUEUE-SECURITY",
+                               "contract_reference":  "CONTRACT-MOCK-0038"
+                           },
+    "tags":  [
+                 "mock-data",
+                 "datacenter",
+                 "apac"
+             ],
+    "notes":  "Synthetic enterprise asset record. All identifiers, network values and references are fictional and reserved for testing.",
+    "record_type":  "ASSET",
+    "location_id":  "LOC-APAC-SG-SIN-01",
+    "data_center_id":  "DC-APAC-MOCK-38",
+    "internet_circuit_ids":  [
+                                 "CIRCUIT-APAC-SG-SIN-01"
+                             ],
+    "primary_connectivity_provider":  "Example Pacific Telecom"
+}

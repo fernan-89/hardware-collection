@@ -1,0 +1,110 @@
+﻿{
+    "asset_id":  "ASSET-REF-0418",
+    "asset_tag":  "REF-APAC-0418",
+    "inventory_id":  "REFERENCE-2026-0418",
+    "serial_number":  "MOCK-SAMSUNG-0418",
+    "manufacturer":  "Samsung",
+    "model":  "Galaxy S25 Ultra",
+    "asset_class":  "HARDWARE",
+    "asset_category":  "SMARTPHONE",
+    "record_type":  "PRODUCT_REFERENCE",
+    "lifecycle_status":  "PROCURED",
+    "operational_status":  "NOT_DEPLOYED",
+    "active":  true,
+    "reference_scope":  {
+                            "manufacturer":  "Samsung",
+                            "official_product_family":  "Galaxy S25 Ultra",
+                            "scope":  "Samsung official product family reference",
+                            "reference_date":  "2026-09-07",
+                            "sku_or_configuration":  "MOCK-0418",
+                            "note":  "Product family, service or platform reference is synthetic for enterprise inventory testing; identifiers and commercial values are fictional."
+                        },
+    "global_allocation":  {
+                              "region":  "APAC",
+                              "country":  "Singapore",
+                              "corporate_entity":  "Example Global Technology Inc.",
+                              "business_unit":  "Global Technology",
+                              "department":  "Network Services",
+                              "cost_center":  "CC-NET-SG-0418",
+                              "assigned_user":  null,
+                              "shared_resource":  "PRODUCT-REFERENCE-0418",
+                              "site_code":  "APAC-STANDARDS",
+                              "location":  "Singapore Enterprise Standards Lab",
+                              "data_center":  null
+                          },
+    "data_classification":  "INTERNAL",
+    "compliance_matrix":  {
+                              "ISO27001":  {
+                                               "applicable":  true,
+                                               "status":  "REVIEW_REQUIRED",
+                                               "evidence_reference":  "EVIDENCE-ISO27001-0418"
+                                           },
+                              "SOC2_Type2":  {
+                                                 "applicable":  true,
+                                                 "status":  "REVIEW_REQUIRED",
+                                                 "evidence_reference":  "EVIDENCE-SOC2-0418"
+                                             },
+                              "PCI-DSS_v4":  {
+                                                 "applicable":  false,
+                                                 "status":  "NOT_APPLICABLE",
+                                                 "evidence_reference":  null
+                                             },
+                              "vendor_security_review":  {
+                                                             "applicable":  true,
+                                                             "status":  "PENDING",
+                                                             "review_reference":  "VENDOR-REVIEW-0418"
+                                                         }
+                          },
+    "technical_identity":  {
+                               "hostname":  "REF-SAMSUNG-0418",
+                               "ip_address":  null,
+                               "mac_address":  null,
+                               "network_segment":  null,
+                               "vlan_id":  null
+                           },
+    "procurement":  {
+                        "purchase_order":  null,
+                        "vendor":  "Samsung",
+                        "acquisition_date":  null,
+                        "deployment_date":  null,
+                        "purchase_price":  null,
+                        "currency":  "USD",
+                        "lease_or_owned":  "REFERENCE_ONLY"
+                    },
+    "warranty_and_support":  {
+                                 "support_contract":  null,
+                                 "support_provider":  "Samsung",
+                                 "support_level":  "VENDOR_REFERENCE",
+                                 "support_expiration_date":  null
+                             },
+    "maintenance":  {
+                        "maintenance_status":  "NOT_DEPLOYED",
+                        "maintenance_frequency":  null,
+                        "last_maintenance_date":  null,
+                        "next_maintenance_date":  null,
+                        "open_incidents":  0,
+                        "maintenance_history":  [
+
+                                                ]
+                    },
+    "service_management":  {
+                               "business_service":  "Technology Product Standards",
+                               "environment":  "REFERENCE",
+                               "service_owner":  "ARCHITECTURE-REFERENCE-TEAM",
+                               "support_queue":  "PRODUCT-STANDARDS",
+                               "contract_reference":  null
+                           },
+    "tags":  [
+                 "official-product-family",
+                 "mock-reference",
+                 "samsung",
+                 "smartphone"
+             ],
+    "notes":  "Synthetic enterprise product-family reference for asset management testing.",
+    "location_id":  "LOC-APAC-SG-SIN-01",
+    "data_center_id":  "DC-APAC-SG-SIN-01",
+    "internet_circuit_ids":  [
+                                 "CIRCUIT-APAC-SG-SIN-01"
+                             ],
+    "primary_connectivity_provider":  "Example Pacific Telecom"
+}

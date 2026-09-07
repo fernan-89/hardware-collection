@@ -1,0 +1,114 @@
+﻿{
+    "asset_id":  "ASSET-MOCK-0086",
+    "asset_tag":  "ITAM-APAC-MOCK-0086",
+    "inventory_id":  "INV-2026-0086",
+    "serial_number":  "MOCK-ORACL-0086-X7K2",
+    "manufacturer":  "Oracle Cloud",
+    "model":  "Vault Encryption Key",
+    "asset_class":  "CLOUD",
+    "asset_category":  "CLOUD",
+    "lifecycle_status":  "ACTIVE",
+    "operational_status":  "ACTIVE",
+    "active":  true,
+    "global_allocation":  {
+                              "region":  "APAC",
+                              "country":  "Singapore",
+                              "corporate_entity":  "Example Global Technology Inc.",
+                              "business_unit":  "Global Technology",
+                              "department":  "Security",
+                              "cost_center":  "CC-SEC-SG-0086",
+                              "assigned_user":  null,
+                              "shared_resource":  "SHARED-CLOUD-0086",
+                              "site_code":  "APAC-MOCK-86",
+                              "location":  "Singapore Enterprise Site",
+                              "data_center":  "DC-APAC-MOCK-86"
+                          },
+    "data_classification":  "RESTRICTED",
+    "compliance_matrix":  {
+                              "ISO27001":  {
+                                               "applicable":  true,
+                                               "status":  "COMPLIANT",
+                                               "evidence_reference":  "EVIDENCE-ISO27001-0086"
+                                           },
+                              "SOC2_Type2":  {
+                                                 "applicable":  true,
+                                                 "status":  "COMPLIANT",
+                                                 "evidence_reference":  "EVIDENCE-SOC2-0086"
+                                             },
+                              "PCI-DSS_v4":  {
+                                                 "applicable":  false,
+                                                 "status":  "NOT_APPLICABLE",
+                                                 "evidence_reference":  null
+                                             },
+                              "privacy_review":  {
+                                                     "applicable":  true,
+                                                     "status":  "COMPLIANT",
+                                                     "last_review_date":  "2026-08-15"
+                                                 }
+                          },
+    "technical_identity":  {
+                               "hostname":  "MOCK-CLOUD-0086",
+                               "ip_address":  "198.51.100.96",
+                               "mac_address":  "02:00:5E:00:56:01",
+                               "network_segment":  "CLOUD-SERVICES",
+                               "vlan_id":  386
+                           },
+    "procurement":  {
+                        "purchase_order":  "PO-MOCK-2026-0086",
+                        "vendor":  "Oracle Cloud",
+                        "acquisition_date":  "2026-01-15",
+                        "deployment_date":  "2026-02-01",
+                        "purchase_price":  9600,
+                        "currency":  "USD",
+                        "lease_or_owned":  "SUBSCRIPTION"
+                    },
+    "warranty_and_support":  {
+                                 "support_contract":  "SUPPORT-MOCK-0086",
+                                 "support_provider":  "Oracle Cloud",
+                                 "support_level":  "PREMIUM",
+                                 "support_expiration_date":  "2029-02-01"
+                             },
+    "maintenance":  {
+                        "maintenance_status":  "SCHEDULED",
+                        "maintenance_frequency":  "MONTHLY",
+                        "last_maintenance_date":  "2026-08-01",
+                        "next_maintenance_date":  "2026-11-01",
+                        "open_incidents":  0,
+                        "maintenance_history":  [
+                                                    {
+                                                        "maintenance_id":  "MAINT-MOCK-0086",
+                                                        "date":  "2026-08-01",
+                                                        "type":  "PREVENTIVE",
+                                                        "status":  "COMPLETED"
+                                                    }
+                                                ]
+                    },
+    "service_management":  {
+                               "business_service":  "Vault Encryption Key",
+                               "environment":  "PRODUCTION",
+                               "service_owner":  "OWNER-MOCK-0086",
+                               "support_queue":  "QUEUE-SECURITY",
+                               "contract_reference":  "CONTRACT-MOCK-0086"
+                           },
+    "tags":  [
+                 "mock-data",
+                 "cloud",
+                 "apac"
+             ],
+    "notes":  "Synthetic enterprise asset record. All identifiers, network values and references are fictional and reserved for testing.",
+    "cloud_metadata":  {
+                           "cloud_provider":  "Oracle Cloud",
+                           "account_or_subscription_id":  "MOCK-ACCOUNT-0086",
+                           "resource_id":  "resource/mock/0086",
+                           "region_code":  "mock-apac-1",
+                           "billing_account":  "BILLING-MOCK-0086",
+                           "availability_zone":  "mock-apac-1a"
+                       },
+    "record_type":  "ASSET",
+    "location_id":  "LOC-APAC-SG-SIN-01",
+    "data_center_id":  "DC-APAC-MOCK-86",
+    "internet_circuit_ids":  [
+                                 "CIRCUIT-APAC-SG-SIN-01"
+                             ],
+    "primary_connectivity_provider":  "Example Pacific Telecom"
+}

@@ -1,0 +1,114 @@
+﻿{
+    "asset_id":  "ASSET-MOCK-0087",
+    "asset_tag":  "ITAM-LATAM-MOCK-0087",
+    "inventory_id":  "INV-2026-0087",
+    "serial_number":  "MOCK-MICRO-0087-X7K2",
+    "manufacturer":  "Microsoft",
+    "model":  "Windows Server License",
+    "asset_class":  "SOFTWARE",
+    "asset_category":  "SOFTWARE",
+    "lifecycle_status":  "ACTIVE",
+    "operational_status":  "ACTIVE",
+    "active":  true,
+    "global_allocation":  {
+                              "region":  "LATAM",
+                              "country":  "Brazil",
+                              "corporate_entity":  "Example Global Technology Inc.",
+                              "business_unit":  "Global Technology",
+                              "department":  "Operations",
+                              "cost_center":  "CC-OPS-BR-0087",
+                              "assigned_user":  null,
+                              "shared_resource":  "SHARED-SOFTWARE-0087",
+                              "site_code":  "LATAM-MOCK-87",
+                              "location":  "Brazil Enterprise Site",
+                              "data_center":  "DC-LATAM-MOCK-87"
+                          },
+    "data_classification":  "RESTRICTED",
+    "compliance_matrix":  {
+                              "ISO27001":  {
+                                               "applicable":  true,
+                                               "status":  "COMPLIANT",
+                                               "evidence_reference":  "EVIDENCE-ISO27001-0087"
+                                           },
+                              "SOC2_Type2":  {
+                                                 "applicable":  true,
+                                                 "status":  "COMPLIANT",
+                                                 "evidence_reference":  "EVIDENCE-SOC2-0087"
+                                             },
+                              "PCI-DSS_v4":  {
+                                                 "applicable":  false,
+                                                 "status":  "NOT_APPLICABLE",
+                                                 "evidence_reference":  null
+                                             },
+                              "privacy_review":  {
+                                                     "applicable":  true,
+                                                     "status":  "COMPLIANT",
+                                                     "last_review_date":  "2026-08-15"
+                                                 }
+                          },
+    "technical_identity":  {
+                               "hostname":  "MOCK-SOFTWARE-0087",
+                               "ip_address":  "198.51.100.97",
+                               "mac_address":  "02:00:5E:00:57:01",
+                               "network_segment":  "CORPORATE-ASSETS",
+                               "vlan_id":  387
+                           },
+    "procurement":  {
+                        "purchase_order":  "PO-MOCK-2026-0087",
+                        "vendor":  "Microsoft",
+                        "acquisition_date":  "2026-01-15",
+                        "deployment_date":  "2026-02-01",
+                        "purchase_price":  9700,
+                        "currency":  "USD",
+                        "lease_or_owned":  "SUBSCRIPTION"
+                    },
+    "warranty_and_support":  {
+                                 "support_contract":  "SUPPORT-MOCK-0087",
+                                 "support_provider":  "Microsoft",
+                                 "support_level":  "PREMIUM",
+                                 "support_expiration_date":  "2029-02-01"
+                             },
+    "maintenance":  {
+                        "maintenance_status":  "SCHEDULED",
+                        "maintenance_frequency":  "MONTHLY",
+                        "last_maintenance_date":  "2026-08-01",
+                        "next_maintenance_date":  "2026-11-01",
+                        "open_incidents":  0,
+                        "maintenance_history":  [
+                                                    {
+                                                        "maintenance_id":  "MAINT-MOCK-0087",
+                                                        "date":  "2026-08-01",
+                                                        "type":  "PREVENTIVE",
+                                                        "status":  "COMPLETED"
+                                                    }
+                                                ]
+                    },
+    "service_management":  {
+                               "business_service":  "Windows Server License",
+                               "environment":  "PRODUCTION",
+                               "service_owner":  "OWNER-MOCK-0087",
+                               "support_queue":  "QUEUE-OPERATIONS",
+                               "contract_reference":  "CONTRACT-MOCK-0087"
+                           },
+    "tags":  [
+                 "mock-data",
+                 "software",
+                 "latam"
+             ],
+    "notes":  "Synthetic enterprise asset record. All identifiers, network values and references are fictional and reserved for testing.",
+    "software_entitlement":  {
+                                 "license_model":  "SUBSCRIPTION",
+                                 "quantity":  100,
+                                 "assigned_quantity":  75,
+                                 "renewal_date":  "2027-01-15",
+                                 "license_manager":  "SAM-MOCK-TEAM",
+                                 "entitlement_reference":  "ENTITLEMENT-MOCK-0087"
+                             },
+    "record_type":  "ASSET",
+    "location_id":  "LOC-LATAM-BR-SAO-01",
+    "data_center_id":  "DC-LATAM-MOCK-87",
+    "internet_circuit_ids":  [
+                                 "CIRCUIT-LATAM-BR-SAO-01"
+                             ],
+    "primary_connectivity_provider":  "Example Andes Telecom"
+}

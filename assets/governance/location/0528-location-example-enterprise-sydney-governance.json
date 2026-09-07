@@ -1,0 +1,106 @@
+﻿{
+    "asset_id":  "ASSET-REF-0528",
+    "asset_tag":  "REF-0528",
+    "inventory_id":  "REFERENCE-2026-0528",
+    "serial_number":  "MOCK-REFERENCE-0528",
+    "manufacturer":  "Example Enterprise Registry",
+    "model":  "Sydney Enterprise Site",
+    "asset_class":  "GOVERNANCE",
+    "asset_category":  "LOCATION",
+    "record_type":  "GOVERNANCE_REFERENCE",
+    "lifecycle_status":  "DEPLOYED",
+    "operational_status":  "ACTIVE",
+    "active":  true,
+    "global_allocation":  {
+                              "region":  "APAC",
+                              "country":  "Australia",
+                              "corporate_entity":  "Example Global Technology Inc.",
+                              "business_unit":  "Global Infrastructure",
+                              "department":  "Facilities and Real Estate",
+                              "cost_center":  "CC-REF-0528",
+                              "assigned_user":  null,
+                              "shared_resource":  "0528",
+                              "site_code":  "LOC-APAC-AU-SYD-01",
+                              "location":  "Sydney Enterprise Site",
+                              "data_center":  null
+                          },
+    "data_classification":  "INTERNAL",
+    "compliance_matrix":  {
+                              "ISO27001":  {
+                                               "applicable":  true,
+                                               "status":  "COMPLIANT",
+                                               "evidence_reference":  "EVIDENCE-ISO27001-0528"
+                                           },
+                              "SOC2_Type2":  {
+                                                 "applicable":  true,
+                                                 "status":  "REVIEW_REQUIRED",
+                                                 "evidence_reference":  "EVIDENCE-SOC2-0528"
+                                             },
+                              "PCI-DSS_v4":  {
+                                                 "applicable":  false,
+                                                 "status":  "NOT_APPLICABLE",
+                                                 "evidence_reference":  null
+                                             },
+                              "governance_review":  {
+                                                        "applicable":  true,
+                                                        "status":  "PENDING",
+                                                        "review_reference":  "GOVERNANCE-REVIEW-0528"
+                                                    }
+                          },
+    "technical_identity":  {
+                               "hostname":  "REF-0528",
+                               "ip_address":  null,
+                               "mac_address":  null,
+                               "network_segment":  null,
+                               "vlan_id":  null
+                           },
+    "procurement":  {
+                        "purchase_order":  null,
+                        "vendor":  "Example Enterprise Registry",
+                        "acquisition_date":  "2026-09-07",
+                        "deployment_date":  "2026-09-07",
+                        "purchase_price":  null,
+                        "currency":  "USD",
+                        "lease_or_owned":  "REFERENCE_ONLY"
+                    },
+    "warranty_and_support":  {
+                                 "support_contract":  null,
+                                 "support_provider":  "Global Infrastructure Operations",
+                                 "support_level":  "STANDARD",
+                                 "support_expiration_date":  null
+                             },
+    "maintenance":  {
+                        "maintenance_status":  "SCHEDULED",
+                        "maintenance_frequency":  "ANNUAL",
+                        "last_maintenance_date":  "2026-08-01",
+                        "next_maintenance_date":  "2027-08-01",
+                        "open_incidents":  0,
+                        "maintenance_history":  [
+
+                                                ]
+                    },
+    "service_management":  {
+                               "business_service":  "Enterprise Location and Connectivity Registry",
+                               "environment":  "REFERENCE",
+                               "service_owner":  "NETWORK-ARCHITECTURE-TEAM",
+                               "support_queue":  "INFRASTRUCTURE-REGISTRY",
+                               "contract_reference":  "CONTRACT-REF-0528"
+                           },
+    "tags":  [
+                 "mock-data",
+                 "reference-data",
+                 "location"
+             ],
+    "notes":  "Synthetic enterprise reference record. Identifiers, providers and facilities are fictional.",
+    "location_metadata":  {
+                              "location_id":  "LOC-APAC-AU-SYD-01",
+                              "city":  "Sydney",
+                              "country":  "Australia",
+                              "timezone":  "UTC",
+                              "facility_type":  "CORPORATE_SITE",
+                              "criticality":  "HIGH",
+                              "remote_work_enabled":  true,
+                              "primary_data_center_id":  "DC-APAC-AU-SYD-01",
+                              "primary_internet_circuit_id":  "CIRCUIT-APAC-AU-SYD-01"
+                          }
+}

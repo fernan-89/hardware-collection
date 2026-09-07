@@ -1,0 +1,114 @@
+﻿{
+    "asset_id":  "ASSET-MOCK-0129",
+    "asset_tag":  "ITAM-EMEA-MOCK-0129",
+    "inventory_id":  "INV-2026-0129",
+    "serial_number":  "MOCK-GLOBA-0129-X7K2",
+    "manufacturer":  "GlobalSign",
+    "model":  "Certificate Subscription",
+    "asset_class":  "SOFTWARE",
+    "asset_category":  "SOFTWARE",
+    "lifecycle_status":  "ACTIVE",
+    "operational_status":  "ACTIVE",
+    "active":  true,
+    "global_allocation":  {
+                              "region":  "EMEA",
+                              "country":  "Germany",
+                              "corporate_entity":  "Example Global Technology Inc.",
+                              "business_unit":  "Global Technology",
+                              "department":  "Infrastructure",
+                              "cost_center":  "CC-INFRA-DE-0129",
+                              "assigned_user":  null,
+                              "shared_resource":  "SHARED-SOFTWARE-0129",
+                              "site_code":  "EMEA-MOCK-129",
+                              "location":  "Germany Enterprise Site",
+                              "data_center":  "DC-EMEA-MOCK-129"
+                          },
+    "data_classification":  "RESTRICTED",
+    "compliance_matrix":  {
+                              "ISO27001":  {
+                                               "applicable":  true,
+                                               "status":  "COMPLIANT",
+                                               "evidence_reference":  "EVIDENCE-ISO27001-0129"
+                                           },
+                              "SOC2_Type2":  {
+                                                 "applicable":  true,
+                                                 "status":  "COMPLIANT",
+                                                 "evidence_reference":  "EVIDENCE-SOC2-0129"
+                                             },
+                              "PCI-DSS_v4":  {
+                                                 "applicable":  false,
+                                                 "status":  "NOT_APPLICABLE",
+                                                 "evidence_reference":  null
+                                             },
+                              "privacy_review":  {
+                                                     "applicable":  true,
+                                                     "status":  "COMPLIANT",
+                                                     "last_review_date":  "2026-08-15"
+                                                 }
+                          },
+    "technical_identity":  {
+                               "hostname":  "MOCK-SOFTWARE-0129",
+                               "ip_address":  "198.51.100.139",
+                               "mac_address":  "02:00:5E:00:81:01",
+                               "network_segment":  "CORPORATE-ASSETS",
+                               "vlan_id":  329
+                           },
+    "procurement":  {
+                        "purchase_order":  "PO-MOCK-2026-0129",
+                        "vendor":  "GlobalSign",
+                        "acquisition_date":  "2026-01-15",
+                        "deployment_date":  "2026-02-01",
+                        "purchase_price":  13900,
+                        "currency":  "USD",
+                        "lease_or_owned":  "SUBSCRIPTION"
+                    },
+    "warranty_and_support":  {
+                                 "support_contract":  "SUPPORT-MOCK-0129",
+                                 "support_provider":  "GlobalSign",
+                                 "support_level":  "PREMIUM",
+                                 "support_expiration_date":  "2029-02-01"
+                             },
+    "maintenance":  {
+                        "maintenance_status":  "SCHEDULED",
+                        "maintenance_frequency":  "MONTHLY",
+                        "last_maintenance_date":  "2026-08-01",
+                        "next_maintenance_date":  "2026-11-01",
+                        "open_incidents":  0,
+                        "maintenance_history":  [
+                                                    {
+                                                        "maintenance_id":  "MAINT-MOCK-0129",
+                                                        "date":  "2026-08-01",
+                                                        "type":  "PREVENTIVE",
+                                                        "status":  "COMPLETED"
+                                                    }
+                                                ]
+                    },
+    "service_management":  {
+                               "business_service":  "Certificate Subscription",
+                               "environment":  "PRODUCTION",
+                               "service_owner":  "OWNER-MOCK-0129",
+                               "support_queue":  "QUEUE-INFRASTRUCTURE",
+                               "contract_reference":  "CONTRACT-MOCK-0129"
+                           },
+    "tags":  [
+                 "mock-data",
+                 "software",
+                 "emea"
+             ],
+    "notes":  "Synthetic enterprise asset record. All identifiers, network values and references are fictional and reserved for testing.",
+    "software_entitlement":  {
+                                 "license_model":  "SUBSCRIPTION",
+                                 "quantity":  100,
+                                 "assigned_quantity":  75,
+                                 "renewal_date":  "2027-01-15",
+                                 "license_manager":  "SAM-MOCK-TEAM",
+                                 "entitlement_reference":  "ENTITLEMENT-MOCK-0129"
+                             },
+    "record_type":  "ASSET",
+    "location_id":  "LOC-EMEA-GB-LON-01",
+    "data_center_id":  "DC-EMEA-MOCK-129",
+    "internet_circuit_ids":  [
+                                 "CIRCUIT-EMEA-GB-LON-01"
+                             ],
+    "primary_connectivity_provider":  "Example Global Fiber"
+}

@@ -1,0 +1,181 @@
+﻿{
+    "asset_id":  "ASSET-MOCK-0001",
+    "asset_tag":  "ITAM-NA-US-AUS-0001",
+    "inventory_id":  "INV-2026-0001",
+    "serial_number":  "MOCK-LNV-P1G6-7Q4M2K",
+    "service_tag":  "MOCK-SVC-7Q4M2K",
+    "manufacturer":  "Lenovo",
+    "model":  "ThinkPad P1 Gen 6",
+    "asset_class":  "HARDWARE",
+    "asset_category":  "ENDPOINT_WORKSTATION",
+    "asset_subcategory":  "MOBILE_WORKSTATION",
+    "lifecycle_status":  "DEPLOYED",
+    "operational_status":  "ACTIVE",
+    "active":  true,
+    "procurement":  {
+                        "purchase_order":  "PO-MOCK-2026-0001",
+                        "vendor":  "Global Enterprise Hardware Supplier",
+                        "acquisition_date":  "2025-05-10",
+                        "deployment_date":  "2025-06-12",
+                        "purchase_price":  4200,
+                        "currency":  "USD",
+                        "lease_or_owned":  "OWNED",
+                        "expected_retirement_date":  "2029-06-12"
+                    },
+    "global_allocation":  {
+                              "region":  "AMER",
+                              "country":  "United States",
+                              "corporate_entity":  "Example Global Technology Inc.",
+                              "business_unit":  "Technology",
+                              "department":  "Platform Engineering",
+                              "cost_center":  "CC-ENG-PLAT-01",
+                              "assigned_user":  "USER-MOCK-ENG-0001",
+                              "shared_resource":  null,
+                              "site_code":  "US-AUS-01",
+                              "location":  "Austin Engineering Campus",
+                              "building":  "Engineering Building 2",
+                              "floor":  "04",
+                              "room_or_zone":  "Secure Engineering Workspace",
+                              "data_center":  null
+                          },
+    "technical_identity":  {
+                               "hostname":  "AUS-ENG-P1-0001",
+                               "operating_system":  "Microsoft Windows 11 Pro",
+                               "os_version":  "23H2",
+                               "os_activation_type":  "ENTERPRISE",
+                               "device_management_platform":  "Microsoft Intune",
+                               "endpoint_management_id":  "INTUNE-MOCK-0001",
+                               "ip_address":  "192.0.2.41",
+                               "mac_address":  "02:00:5E:10:00:01",
+                               "network_segment":  "CORP-ENDPOINTS",
+                               "vlan_id":  210,
+                               "domain":  "corp.example.test"
+                           },
+    "ownership_and_risk":  {
+                               "business_criticality":  "HIGH",
+                               "availability_tier":  "TIER_2",
+                               "risk_rating":  "MEDIUM",
+                               "business_service":  "Engineering Productivity",
+                               "disaster_recovery_tier":  "STANDARD",
+                               "single_point_of_failure":  false
+                           },
+    "data_classification":  "CONFIDENTIAL",
+    "compliance_matrix":  {
+                              "ISO27001":  {
+                                               "applicable":  true,
+                                               "status":  "COMPLIANT",
+                                               "evidence_reference":  "EVIDENCE-MOCK-ISO27001-0001",
+                                               "last_review_date":  "2026-07-15",
+                                               "next_review_date":  "2027-07-15"
+                                           },
+                              "SOC2_Type2":  {
+                                                 "applicable":  true,
+                                                 "status":  "COMPLIANT",
+                                                 "evidence_reference":  "EVIDENCE-MOCK-SOC2-0001",
+                                                 "last_review_date":  "2026-07-15",
+                                                 "next_review_date":  "2027-07-15"
+                                             },
+                              "PCI-DSS_v4":  {
+                                                 "applicable":  false,
+                                                 "status":  "NOT_APPLICABLE",
+                                                 "evidence_reference":  null,
+                                                 "last_review_date":  "2026-07-15",
+                                                 "next_review_date":  "2027-07-15"
+                                             },
+                              "endpoint_encryption":  {
+                                                          "applicable":  true,
+                                                          "status":  "COMPLIANT",
+                                                          "control":  "BitLocker with TPM 2.0",
+                                                          "last_review_date":  "2026-08-01"
+                                                      },
+                              "edr_protection":  {
+                                                     "applicable":  true,
+                                                     "status":  "COMPLIANT",
+                                                     "control":  "Microsoft Defender for Endpoint",
+                                                     "last_review_date":  "2026-08-01"
+                                                 }
+                          },
+    "hardware_specifications":  {
+                                    "processor_model":  "Intel Core i7-13800H",
+                                    "processor_cores":  14,
+                                    "processor_threads":  20,
+                                    "memory_total_gb":  64,
+                                    "memory_type":  "DDR5",
+                                    "memory_form_factor":  "SO-DIMM",
+                                    "storage_total_gb":  2048,
+                                    "primary_storage_type":  "NVMe SSD",
+                                    "primary_storage_gb":  2048,
+                                    "display_type":  "4K HDR Touch",
+                                    "display_size_inches":  16,
+                                    "integrated_graphics":  "Intel Iris Xe",
+                                    "dedicated_graphics":  "NVIDIA RTX A4000 Ada Mobile",
+                                    "tpm_version":  "2.0",
+                                    "bios_version":  "N3WET24W 1.14",
+                                    "battery_health_percent":  94
+                                },
+    "warranty_and_support":  {
+                                 "manufacturer_warranty":  {
+                                                               "provider":  "Lenovo",
+                                                               "start_date":  "2025-06-12",
+                                                               "end_date":  "2028-06-21",
+                                                               "coverage":  "Premier Support Next Business Day",
+                                                               "status":  "ACTIVE"
+                                                           },
+                                 "support_contract":  "LENOVO-PREMIER-MOCK-0001",
+                                 "support_provider":  "Global Enterprise Service Provider",
+                                 "support_level":  "PREMIUM",
+                                 "support_expiration_date":  "2028-06-21"
+                             },
+    "maintenance":  {
+                        "maintenance_status":  "SCHEDULED",
+                        "maintenance_frequency":  "QUARTERLY",
+                        "last_maintenance_date":  "2026-07-15",
+                        "next_maintenance_date":  "2026-10-15",
+                        "last_patch_date":  "2026-08-12",
+                        "maintenance_vendor":  "Global Enterprise Service Provider",
+                        "open_incidents":  0,
+                        "maintenance_history":  [
+                                                    {
+                                                        "maintenance_id":  "MAINT-MOCK-0001",
+                                                        "date":  "2026-07-15",
+                                                        "type":  "PREVENTIVE",
+                                                        "status":  "COMPLETED",
+                                                        "technician":  "TECH-MOCK-0041",
+                                                        "work_order":  "WO-MOCK-2026-0041",
+                                                        "summary":  "Hardware inspection, storage health check and endpoint compliance validation."
+                                                    }
+                                                ]
+                    },
+    "financial_and_contract":  {
+                                   "capitalization_type":  "CAPEX",
+                                   "depreciation_method":  "STRAIGHT_LINE",
+                                   "depreciation_years":  4,
+                                   "book_value_usd":  2100,
+                                   "contract_reference":  "CONTRACT-MOCK-ENDPOINT-2025",
+                                   "invoice_reference":  "INV-MOCK-2025-0001"
+                               },
+    "security_controls":  {
+                              "disk_encryption":  true,
+                              "secure_boot":  true,
+                              "local_admin_restricted":  true,
+                              "passwordless_authentication_enabled":  true,
+                              "last_vulnerability_scan":  "2026-08-20",
+                              "vulnerability_status":  "NO_CRITICAL_FINDINGS",
+                              "remote_wipe_capable":  true
+                          },
+    "tags":  [
+                 "mock-data",
+                 "endpoint",
+                 "mobile-workstation",
+                 "engineering",
+                 "confidential"
+             ],
+    "notes":  "Synthetic enterprise asset record. All identifiers, network values and references are fictional and reserved for testing.",
+    "record_type":  "ASSET",
+    "location_id":  "LOC-AMER-US-AUS-01",
+    "data_center_id":  "DC-AMER-US-AUS-01",
+    "internet_circuit_ids":  [
+                                 "CIRCUIT-AMER-US-AUS-01"
+                             ],
+    "primary_connectivity_provider":  "Example Fiber North America"
+}

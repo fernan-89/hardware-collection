@@ -1,0 +1,110 @@
+﻿{
+    "asset_id":  "ASSET-REF-0439",
+    "asset_tag":  "REF-LATAM-0439",
+    "inventory_id":  "REFERENCE-2026-0439",
+    "serial_number":  "MOCK-POLY-0439",
+    "manufacturer":  "Poly",
+    "model":  "Edge E350 IP Phone",
+    "asset_class":  "SOFTWARE",
+    "asset_category":  "VOIP_PHONE",
+    "record_type":  "PRODUCT_REFERENCE",
+    "lifecycle_status":  "PROCURED",
+    "operational_status":  "NOT_DEPLOYED",
+    "active":  true,
+    "reference_scope":  {
+                            "manufacturer":  "Poly",
+                            "official_product_family":  "Edge E350 IP Phone",
+                            "scope":  "Poly official product family reference",
+                            "reference_date":  "2026-09-07",
+                            "sku_or_configuration":  "MOCK-0439",
+                            "note":  "Product family, service or platform reference is synthetic for enterprise inventory testing; identifiers and commercial values are fictional."
+                        },
+    "global_allocation":  {
+                              "region":  "LATAM",
+                              "country":  "Brazil",
+                              "corporate_entity":  "Example Global Technology Inc.",
+                              "business_unit":  "Global Technology",
+                              "department":  "Operations",
+                              "cost_center":  "CC-OPS-BR-0439",
+                              "assigned_user":  null,
+                              "shared_resource":  "PRODUCT-REFERENCE-0439",
+                              "site_code":  "LATAM-STANDARDS",
+                              "location":  "Brazil Enterprise Standards Lab",
+                              "data_center":  null
+                          },
+    "data_classification":  "INTERNAL",
+    "compliance_matrix":  {
+                              "ISO27001":  {
+                                               "applicable":  true,
+                                               "status":  "REVIEW_REQUIRED",
+                                               "evidence_reference":  "EVIDENCE-ISO27001-0439"
+                                           },
+                              "SOC2_Type2":  {
+                                                 "applicable":  true,
+                                                 "status":  "REVIEW_REQUIRED",
+                                                 "evidence_reference":  "EVIDENCE-SOC2-0439"
+                                             },
+                              "PCI-DSS_v4":  {
+                                                 "applicable":  true,
+                                                 "status":  "REVIEW_REQUIRED",
+                                                 "evidence_reference":  null
+                                             },
+                              "vendor_security_review":  {
+                                                             "applicable":  true,
+                                                             "status":  "PENDING",
+                                                             "review_reference":  "VENDOR-REVIEW-0439"
+                                                         }
+                          },
+    "technical_identity":  {
+                               "hostname":  "REF-POLY-0439",
+                               "ip_address":  null,
+                               "mac_address":  null,
+                               "network_segment":  null,
+                               "vlan_id":  null
+                           },
+    "procurement":  {
+                        "purchase_order":  null,
+                        "vendor":  "Poly",
+                        "acquisition_date":  null,
+                        "deployment_date":  null,
+                        "purchase_price":  null,
+                        "currency":  "USD",
+                        "lease_or_owned":  "REFERENCE_ONLY"
+                    },
+    "warranty_and_support":  {
+                                 "support_contract":  null,
+                                 "support_provider":  "Poly",
+                                 "support_level":  "VENDOR_REFERENCE",
+                                 "support_expiration_date":  null
+                             },
+    "maintenance":  {
+                        "maintenance_status":  "NOT_DEPLOYED",
+                        "maintenance_frequency":  null,
+                        "last_maintenance_date":  null,
+                        "next_maintenance_date":  null,
+                        "open_incidents":  0,
+                        "maintenance_history":  [
+
+                                                ]
+                    },
+    "service_management":  {
+                               "business_service":  "Technology Product Standards",
+                               "environment":  "REFERENCE",
+                               "service_owner":  "ARCHITECTURE-REFERENCE-TEAM",
+                               "support_queue":  "PRODUCT-STANDARDS",
+                               "contract_reference":  null
+                           },
+    "tags":  [
+                 "official-product-family",
+                 "mock-reference",
+                 "poly",
+                 "voip-phone"
+             ],
+    "notes":  "Synthetic enterprise product-family reference for asset management testing.",
+    "location_id":  "LOC-LATAM-BR-SAO-01",
+    "data_center_id":  "DC-LATAM-BR-SAO-01",
+    "internet_circuit_ids":  [
+                                 "CIRCUIT-LATAM-BR-SAO-01"
+                             ],
+    "primary_connectivity_provider":  "Example Andes Telecom"
+}

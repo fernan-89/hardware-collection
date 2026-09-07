@@ -1,0 +1,114 @@
+﻿{
+    "asset_id":  "ASSET-MOCK-0069",
+    "asset_tag":  "ITAM-EMEA-MOCK-0069",
+    "inventory_id":  "INV-2026-0069",
+    "serial_number":  "MOCK-AWS-0069-X7K2",
+    "manufacturer":  "AWS",
+    "model":  "KMS Encryption Key",
+    "asset_class":  "CLOUD",
+    "asset_category":  "CLOUD",
+    "lifecycle_status":  "ACTIVE",
+    "operational_status":  "ACTIVE",
+    "active":  true,
+    "global_allocation":  {
+                              "region":  "EMEA",
+                              "country":  "Germany",
+                              "corporate_entity":  "Example Global Technology Inc.",
+                              "business_unit":  "Global Technology",
+                              "department":  "Infrastructure",
+                              "cost_center":  "CC-INFRA-DE-0069",
+                              "assigned_user":  null,
+                              "shared_resource":  "SHARED-CLOUD-0069",
+                              "site_code":  "EMEA-MOCK-69",
+                              "location":  "Germany Enterprise Site",
+                              "data_center":  "DC-EMEA-MOCK-69"
+                          },
+    "data_classification":  "RESTRICTED",
+    "compliance_matrix":  {
+                              "ISO27001":  {
+                                               "applicable":  true,
+                                               "status":  "COMPLIANT",
+                                               "evidence_reference":  "EVIDENCE-ISO27001-0069"
+                                           },
+                              "SOC2_Type2":  {
+                                                 "applicable":  true,
+                                                 "status":  "COMPLIANT",
+                                                 "evidence_reference":  "EVIDENCE-SOC2-0069"
+                                             },
+                              "PCI-DSS_v4":  {
+                                                 "applicable":  false,
+                                                 "status":  "NOT_APPLICABLE",
+                                                 "evidence_reference":  null
+                                             },
+                              "privacy_review":  {
+                                                     "applicable":  true,
+                                                     "status":  "COMPLIANT",
+                                                     "last_review_date":  "2026-08-15"
+                                                 }
+                          },
+    "technical_identity":  {
+                               "hostname":  "MOCK-CLOUD-0069",
+                               "ip_address":  "198.51.100.79",
+                               "mac_address":  "02:00:5E:00:45:01",
+                               "network_segment":  "CLOUD-SERVICES",
+                               "vlan_id":  369
+                           },
+    "procurement":  {
+                        "purchase_order":  "PO-MOCK-2026-0069",
+                        "vendor":  "AWS",
+                        "acquisition_date":  "2026-01-15",
+                        "deployment_date":  "2026-02-01",
+                        "purchase_price":  7900,
+                        "currency":  "USD",
+                        "lease_or_owned":  "SUBSCRIPTION"
+                    },
+    "warranty_and_support":  {
+                                 "support_contract":  "SUPPORT-MOCK-0069",
+                                 "support_provider":  "AWS",
+                                 "support_level":  "PREMIUM",
+                                 "support_expiration_date":  "2029-02-01"
+                             },
+    "maintenance":  {
+                        "maintenance_status":  "SCHEDULED",
+                        "maintenance_frequency":  "MONTHLY",
+                        "last_maintenance_date":  "2026-08-01",
+                        "next_maintenance_date":  "2026-11-01",
+                        "open_incidents":  0,
+                        "maintenance_history":  [
+                                                    {
+                                                        "maintenance_id":  "MAINT-MOCK-0069",
+                                                        "date":  "2026-08-01",
+                                                        "type":  "PREVENTIVE",
+                                                        "status":  "COMPLETED"
+                                                    }
+                                                ]
+                    },
+    "service_management":  {
+                               "business_service":  "KMS Encryption Key",
+                               "environment":  "PRODUCTION",
+                               "service_owner":  "OWNER-MOCK-0069",
+                               "support_queue":  "QUEUE-INFRASTRUCTURE",
+                               "contract_reference":  "CONTRACT-MOCK-0069"
+                           },
+    "tags":  [
+                 "mock-data",
+                 "cloud",
+                 "emea"
+             ],
+    "notes":  "Synthetic enterprise asset record. All identifiers, network values and references are fictional and reserved for testing.",
+    "cloud_metadata":  {
+                           "cloud_provider":  "AWS",
+                           "account_or_subscription_id":  "MOCK-ACCOUNT-0069",
+                           "resource_id":  "resource/mock/0069",
+                           "region_code":  "mock-emea-1",
+                           "billing_account":  "BILLING-MOCK-0069",
+                           "availability_zone":  "mock-emea-1a"
+                       },
+    "record_type":  "ASSET",
+    "location_id":  "LOC-EMEA-GB-LON-01",
+    "data_center_id":  "DC-EMEA-MOCK-69",
+    "internet_circuit_ids":  [
+                                 "CIRCUIT-EMEA-GB-LON-01"
+                             ],
+    "primary_connectivity_provider":  "Example Global Fiber"
+}

@@ -1,0 +1,110 @@
+﻿{
+    "asset_id":  "ASSET-REF-0508",
+    "asset_tag":  "REF-AMER-0508",
+    "inventory_id":  "REFERENCE-2026-0508",
+    "serial_number":  "MOCK-IBM-0508",
+    "manufacturer":  "IBM",
+    "model":  "Enterprise Records Manager",
+    "asset_class":  "SOFTWARE",
+    "asset_category":  "GOVERNANCE_PLATFORM",
+    "record_type":  "PRODUCT_REFERENCE",
+    "lifecycle_status":  "PROCURED",
+    "operational_status":  "NOT_DEPLOYED",
+    "active":  true,
+    "reference_scope":  {
+                            "manufacturer":  "IBM",
+                            "official_product_family":  "Enterprise Records Manager",
+                            "scope":  "IBM official product family reference",
+                            "reference_date":  "2026-09-07",
+                            "sku_or_configuration":  "MOCK-IBM-0508",
+                            "note":  "Product family, service or platform reference is synthetic for enterprise inventory testing; identifiers and commercial values are fictional."
+                        },
+    "global_allocation":  {
+                              "region":  "AMER",
+                              "country":  "United States",
+                              "corporate_entity":  "Example Global Technology Inc.",
+                              "business_unit":  "Global Technology",
+                              "department":  "Technology",
+                              "cost_center":  "CC-TECH-US-0508",
+                              "assigned_user":  null,
+                              "shared_resource":  "PRODUCT-REFERENCE-0508",
+                              "site_code":  "AMER-STANDARDS",
+                              "location":  "United States Enterprise Standards Lab",
+                              "data_center":  null
+                          },
+    "data_classification":  "INTERNAL",
+    "compliance_matrix":  {
+                              "ISO27001":  {
+                                               "applicable":  true,
+                                               "status":  "REVIEW_REQUIRED",
+                                               "evidence_reference":  "EVIDENCE-ISO27001-0508"
+                                           },
+                              "SOC2_Type2":  {
+                                                 "applicable":  true,
+                                                 "status":  "REVIEW_REQUIRED",
+                                                 "evidence_reference":  "EVIDENCE-SOC2-0508"
+                                             },
+                              "PCI-DSS_v4":  {
+                                                 "applicable":  false,
+                                                 "status":  "NOT_APPLICABLE",
+                                                 "evidence_reference":  null
+                                             },
+                              "vendor_security_review":  {
+                                                             "applicable":  true,
+                                                             "status":  "PENDING",
+                                                             "review_reference":  "VENDOR-REVIEW-0508"
+                                                         }
+                          },
+    "technical_identity":  {
+                               "hostname":  "REF-IBM-0508",
+                               "ip_address":  null,
+                               "mac_address":  null,
+                               "network_segment":  null,
+                               "vlan_id":  null
+                           },
+    "procurement":  {
+                        "purchase_order":  null,
+                        "vendor":  "IBM",
+                        "acquisition_date":  null,
+                        "deployment_date":  null,
+                        "purchase_price":  null,
+                        "currency":  "USD",
+                        "lease_or_owned":  "REFERENCE_ONLY"
+                    },
+    "warranty_and_support":  {
+                                 "support_contract":  null,
+                                 "support_provider":  "IBM",
+                                 "support_level":  "VENDOR_REFERENCE",
+                                 "support_expiration_date":  null
+                             },
+    "maintenance":  {
+                        "maintenance_status":  "NOT_DEPLOYED",
+                        "maintenance_frequency":  null,
+                        "last_maintenance_date":  null,
+                        "next_maintenance_date":  null,
+                        "open_incidents":  0,
+                        "maintenance_history":  [
+
+                                                ]
+                    },
+    "service_management":  {
+                               "business_service":  "Technology Product Standards",
+                               "environment":  "REFERENCE",
+                               "service_owner":  "ARCHITECTURE-REFERENCE-TEAM",
+                               "support_queue":  "PRODUCT-STANDARDS",
+                               "contract_reference":  null
+                           },
+    "tags":  [
+                 "official-product-family",
+                 "mock-reference",
+                 "ibm",
+                 "governance-platform"
+             ],
+    "notes":  "Synthetic IBM product-family reference for enterprise asset management testing.",
+    "location_id":  "LOC-AMER-US-AUS-01",
+    "data_center_id":  "DC-AMER-US-AUS-01",
+    "internet_circuit_ids":  [
+                                 "CIRCUIT-AMER-US-AUS-01"
+                             ],
+    "primary_connectivity_provider":  "Example Fiber North America"
+}

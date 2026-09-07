@@ -1,0 +1,114 @@
+﻿{
+    "asset_id":  "ASSET-MOCK-0088",
+    "asset_tag":  "ITAM-AMER-MOCK-0088",
+    "inventory_id":  "INV-2026-0088",
+    "serial_number":  "MOCK-REDHA-0088-X7K2",
+    "manufacturer":  "Red Hat",
+    "model":  "Enterprise Linux Subscription",
+    "asset_class":  "SOFTWARE",
+    "asset_category":  "SOFTWARE",
+    "lifecycle_status":  "ACTIVE",
+    "operational_status":  "ACTIVE",
+    "active":  true,
+    "global_allocation":  {
+                              "region":  "AMER",
+                              "country":  "United States",
+                              "corporate_entity":  "Example Global Technology Inc.",
+                              "business_unit":  "Global Technology",
+                              "department":  "Technology",
+                              "cost_center":  "CC-TECH-US-0088",
+                              "assigned_user":  null,
+                              "shared_resource":  "SHARED-SOFTWARE-0088",
+                              "site_code":  "AMER-MOCK-88",
+                              "location":  "United States Enterprise Site",
+                              "data_center":  "DC-AMER-MOCK-88"
+                          },
+    "data_classification":  "RESTRICTED",
+    "compliance_matrix":  {
+                              "ISO27001":  {
+                                               "applicable":  true,
+                                               "status":  "COMPLIANT",
+                                               "evidence_reference":  "EVIDENCE-ISO27001-0088"
+                                           },
+                              "SOC2_Type2":  {
+                                                 "applicable":  true,
+                                                 "status":  "COMPLIANT",
+                                                 "evidence_reference":  "EVIDENCE-SOC2-0088"
+                                             },
+                              "PCI-DSS_v4":  {
+                                                 "applicable":  false,
+                                                 "status":  "NOT_APPLICABLE",
+                                                 "evidence_reference":  null
+                                             },
+                              "privacy_review":  {
+                                                     "applicable":  true,
+                                                     "status":  "COMPLIANT",
+                                                     "last_review_date":  "2026-08-15"
+                                                 }
+                          },
+    "technical_identity":  {
+                               "hostname":  "MOCK-SOFTWARE-0088",
+                               "ip_address":  "198.51.100.98",
+                               "mac_address":  "02:00:5E:00:58:01",
+                               "network_segment":  "CORPORATE-ASSETS",
+                               "vlan_id":  388
+                           },
+    "procurement":  {
+                        "purchase_order":  "PO-MOCK-2026-0088",
+                        "vendor":  "Red Hat",
+                        "acquisition_date":  "2026-01-15",
+                        "deployment_date":  "2026-02-01",
+                        "purchase_price":  9800,
+                        "currency":  "USD",
+                        "lease_or_owned":  "SUBSCRIPTION"
+                    },
+    "warranty_and_support":  {
+                                 "support_contract":  "SUPPORT-MOCK-0088",
+                                 "support_provider":  "Red Hat",
+                                 "support_level":  "PREMIUM",
+                                 "support_expiration_date":  "2029-02-01"
+                             },
+    "maintenance":  {
+                        "maintenance_status":  "SCHEDULED",
+                        "maintenance_frequency":  "MONTHLY",
+                        "last_maintenance_date":  "2026-08-01",
+                        "next_maintenance_date":  "2026-11-01",
+                        "open_incidents":  0,
+                        "maintenance_history":  [
+                                                    {
+                                                        "maintenance_id":  "MAINT-MOCK-0088",
+                                                        "date":  "2026-08-01",
+                                                        "type":  "PREVENTIVE",
+                                                        "status":  "COMPLETED"
+                                                    }
+                                                ]
+                    },
+    "service_management":  {
+                               "business_service":  "Enterprise Linux Subscription",
+                               "environment":  "PRODUCTION",
+                               "service_owner":  "OWNER-MOCK-0088",
+                               "support_queue":  "QUEUE-TECHNOLOGY",
+                               "contract_reference":  "CONTRACT-MOCK-0088"
+                           },
+    "tags":  [
+                 "mock-data",
+                 "software",
+                 "amer"
+             ],
+    "notes":  "Synthetic enterprise asset record. All identifiers, network values and references are fictional and reserved for testing.",
+    "software_entitlement":  {
+                                 "license_model":  "SUBSCRIPTION",
+                                 "quantity":  100,
+                                 "assigned_quantity":  75,
+                                 "renewal_date":  "2027-01-15",
+                                 "license_manager":  "SAM-MOCK-TEAM",
+                                 "entitlement_reference":  "ENTITLEMENT-MOCK-0088"
+                             },
+    "record_type":  "ASSET",
+    "location_id":  "LOC-AMER-US-AUS-01",
+    "data_center_id":  "DC-AMER-MOCK-88",
+    "internet_circuit_ids":  [
+                                 "CIRCUIT-AMER-US-AUS-01"
+                             ],
+    "primary_connectivity_provider":  "Example Fiber North America"
+}

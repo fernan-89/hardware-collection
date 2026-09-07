@@ -1,0 +1,110 @@
+﻿{
+    "asset_id":  "ASSET-REF-0373",
+    "asset_tag":  "REF-EMEA-0373",
+    "inventory_id":  "REFERENCE-2026-0373",
+    "serial_number":  "MOCK-LINUX-0373",
+    "manufacturer":  "Linux",
+    "model":  "Ubuntu Pro",
+    "asset_class":  "SOFTWARE",
+    "asset_category":  "OPERATING_SYSTEM",
+    "record_type":  "PRODUCT_REFERENCE",
+    "lifecycle_status":  "PROCURED",
+    "operational_status":  "NOT_DEPLOYED",
+    "active":  true,
+    "reference_scope":  {
+                            "manufacturer":  "Linux",
+                            "official_product_family":  "Ubuntu Pro",
+                            "scope":  "Linux official product family reference",
+                            "reference_date":  "2026-09-07",
+                            "sku_or_configuration":  "MOCK-0373",
+                            "note":  "Product family, service or platform reference is synthetic for enterprise inventory testing; identifiers and commercial values are fictional."
+                        },
+    "global_allocation":  {
+                              "region":  "EMEA",
+                              "country":  "Germany",
+                              "corporate_entity":  "Example Global Technology Inc.",
+                              "business_unit":  "Global Technology",
+                              "department":  "Infrastructure",
+                              "cost_center":  "CC-INFRA-DE-0373",
+                              "assigned_user":  null,
+                              "shared_resource":  "PRODUCT-REFERENCE-0373",
+                              "site_code":  "EMEA-STANDARDS",
+                              "location":  "Germany Enterprise Standards Lab",
+                              "data_center":  null
+                          },
+    "data_classification":  "INTERNAL",
+    "compliance_matrix":  {
+                              "ISO27001":  {
+                                               "applicable":  true,
+                                               "status":  "REVIEW_REQUIRED",
+                                               "evidence_reference":  "EVIDENCE-ISO27001-0373"
+                                           },
+                              "SOC2_Type2":  {
+                                                 "applicable":  true,
+                                                 "status":  "REVIEW_REQUIRED",
+                                                 "evidence_reference":  "EVIDENCE-SOC2-0373"
+                                             },
+                              "PCI-DSS_v4":  {
+                                                 "applicable":  false,
+                                                 "status":  "NOT_APPLICABLE",
+                                                 "evidence_reference":  null
+                                             },
+                              "vendor_security_review":  {
+                                                             "applicable":  true,
+                                                             "status":  "PENDING",
+                                                             "review_reference":  "VENDOR-REVIEW-0373"
+                                                         }
+                          },
+    "technical_identity":  {
+                               "hostname":  "REF-LINUX-0373",
+                               "ip_address":  null,
+                               "mac_address":  null,
+                               "network_segment":  null,
+                               "vlan_id":  null
+                           },
+    "procurement":  {
+                        "purchase_order":  null,
+                        "vendor":  "Linux",
+                        "acquisition_date":  null,
+                        "deployment_date":  null,
+                        "purchase_price":  null,
+                        "currency":  "USD",
+                        "lease_or_owned":  "REFERENCE_ONLY"
+                    },
+    "warranty_and_support":  {
+                                 "support_contract":  null,
+                                 "support_provider":  "Linux",
+                                 "support_level":  "VENDOR_REFERENCE",
+                                 "support_expiration_date":  null
+                             },
+    "maintenance":  {
+                        "maintenance_status":  "NOT_DEPLOYED",
+                        "maintenance_frequency":  null,
+                        "last_maintenance_date":  null,
+                        "next_maintenance_date":  null,
+                        "open_incidents":  0,
+                        "maintenance_history":  [
+
+                                                ]
+                    },
+    "service_management":  {
+                               "business_service":  "Technology Product Standards",
+                               "environment":  "REFERENCE",
+                               "service_owner":  "ARCHITECTURE-REFERENCE-TEAM",
+                               "support_queue":  "PRODUCT-STANDARDS",
+                               "contract_reference":  null
+                           },
+    "tags":  [
+                 "official-product-family",
+                 "mock-reference",
+                 "linux",
+                 "operating-system"
+             ],
+    "notes":  "Synthetic enterprise product-family reference for asset management testing.",
+    "location_id":  "LOC-EMEA-GB-LON-01",
+    "data_center_id":  "DC-EMEA-GB-LON-01",
+    "internet_circuit_ids":  [
+                                 "CIRCUIT-EMEA-GB-LON-01"
+                             ],
+    "primary_connectivity_provider":  "Example Global Fiber"
+}

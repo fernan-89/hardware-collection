@@ -1,0 +1,111 @@
+﻿{
+    "asset_id":  "ASSET-REF-0521",
+    "asset_tag":  "REF-0521",
+    "inventory_id":  "REFERENCE-2026-0521",
+    "serial_number":  "MOCK-REFERENCE-0521",
+    "manufacturer":  "Example Enterprise Registry",
+    "model":  "Example EuroCarrier Internet Circuit",
+    "asset_class":  "GOVERNANCE",
+    "asset_category":  "NETWORK_CIRCUIT",
+    "record_type":  "GOVERNANCE_REFERENCE",
+    "lifecycle_status":  "DEPLOYED",
+    "operational_status":  "ACTIVE",
+    "active":  true,
+    "global_allocation":  {
+                              "region":  "EMEA",
+                              "country":  "Germany",
+                              "corporate_entity":  "Example Global Technology Inc.",
+                              "business_unit":  "Global Infrastructure",
+                              "department":  "Network Services",
+                              "cost_center":  "CC-REF-0521",
+                              "assigned_user":  null,
+                              "shared_resource":  "0521",
+                              "site_code":  "LOC-EMEA-DE-FRA-01",
+                              "location":  "Example EuroCarrier Internet Circuit",
+                              "data_center":  null
+                          },
+    "data_classification":  "INTERNAL",
+    "compliance_matrix":  {
+                              "ISO27001":  {
+                                               "applicable":  true,
+                                               "status":  "COMPLIANT",
+                                               "evidence_reference":  "EVIDENCE-ISO27001-0521"
+                                           },
+                              "SOC2_Type2":  {
+                                                 "applicable":  true,
+                                                 "status":  "REVIEW_REQUIRED",
+                                                 "evidence_reference":  "EVIDENCE-SOC2-0521"
+                                             },
+                              "PCI-DSS_v4":  {
+                                                 "applicable":  false,
+                                                 "status":  "NOT_APPLICABLE",
+                                                 "evidence_reference":  null
+                                             },
+                              "governance_review":  {
+                                                        "applicable":  true,
+                                                        "status":  "PENDING",
+                                                        "review_reference":  "GOVERNANCE-REVIEW-0521"
+                                                    }
+                          },
+    "technical_identity":  {
+                               "hostname":  "REF-0521",
+                               "ip_address":  null,
+                               "mac_address":  null,
+                               "network_segment":  null,
+                               "vlan_id":  null
+                           },
+    "procurement":  {
+                        "purchase_order":  null,
+                        "vendor":  "Example Enterprise Registry",
+                        "acquisition_date":  "2026-09-07",
+                        "deployment_date":  "2026-09-07",
+                        "purchase_price":  null,
+                        "currency":  "USD",
+                        "lease_or_owned":  "REFERENCE_ONLY"
+                    },
+    "warranty_and_support":  {
+                                 "support_contract":  null,
+                                 "support_provider":  "Global Infrastructure Operations",
+                                 "support_level":  "STANDARD",
+                                 "support_expiration_date":  null
+                             },
+    "maintenance":  {
+                        "maintenance_status":  "SCHEDULED",
+                        "maintenance_frequency":  "ANNUAL",
+                        "last_maintenance_date":  "2026-08-01",
+                        "next_maintenance_date":  "2027-08-01",
+                        "open_incidents":  0,
+                        "maintenance_history":  [
+
+                                                ]
+                    },
+    "service_management":  {
+                               "business_service":  "Enterprise Location and Connectivity Registry",
+                               "environment":  "REFERENCE",
+                               "service_owner":  "NETWORK-ARCHITECTURE-TEAM",
+                               "support_queue":  "INFRASTRUCTURE-REGISTRY",
+                               "contract_reference":  "CONTRACT-REF-0521"
+                           },
+    "tags":  [
+                 "mock-data",
+                 "reference-data",
+                 "network_circuit"
+             ],
+    "notes":  "Synthetic enterprise reference record. Identifiers, providers and facilities are fictional.",
+    "connectivity_metadata":  {
+                                  "circuit_id":  "CIRCUIT-EMEA-DE-FRA-01",
+                                  "provider_name":  "Example EuroCarrier",
+                                  "circuit_type":  "DUAL_DIVERSE_INTERNET",
+                                  "bandwidth_mbps":  10000,
+                                  "committed_bandwidth_mbps":  5000,
+                                  "availability_sla":  "99.99%",
+                                  "demarcation_point":  "Frankfurt Carrier Hotel",
+                                  "source_location_id":  "LOC-EMEA-DE-FRA-01",
+                                  "destination_location_id":  "LOC-EMEA-DE-FRA-01",
+                                  "bgp_asn":  65033,
+                                  "ipv4_documentation_range":  "198.51.100.0/24",
+                                  "ipv6_documentation_range":  "2001:db8::/32",
+                                  "contract_id":  "CONTRACT-CIRCUIT-0521",
+                                  "monitoring_platform":  "Synthetic Network Monitoring"
+                              }
+}

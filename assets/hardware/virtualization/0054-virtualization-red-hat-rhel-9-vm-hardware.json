@@ -1,0 +1,106 @@
+﻿{
+    "asset_id":  "ASSET-MOCK-0054",
+    "asset_tag":  "ITAM-APAC-MOCK-0054",
+    "inventory_id":  "INV-2026-0054",
+    "serial_number":  "MOCK-REDHA-0054-X7K2",
+    "manufacturer":  "Red Hat",
+    "model":  "RHEL 9 VM",
+    "asset_class":  "HARDWARE",
+    "asset_category":  "VIRTUALIZATION",
+    "lifecycle_status":  "DEPLOYED",
+    "operational_status":  "ACTIVE",
+    "active":  true,
+    "global_allocation":  {
+                              "region":  "APAC",
+                              "country":  "Singapore",
+                              "corporate_entity":  "Example Global Technology Inc.",
+                              "business_unit":  "Global Technology",
+                              "department":  "Security",
+                              "cost_center":  "CC-SEC-SG-0054",
+                              "assigned_user":  "USER-MOCK-0054",
+                              "shared_resource":  null,
+                              "site_code":  "APAC-MOCK-54",
+                              "location":  "Singapore Enterprise Site",
+                              "data_center":  "DC-APAC-MOCK-54"
+                          },
+    "data_classification":  "CONFIDENTIAL",
+    "compliance_matrix":  {
+                              "ISO27001":  {
+                                               "applicable":  true,
+                                               "status":  "COMPLIANT",
+                                               "evidence_reference":  "EVIDENCE-ISO27001-0054"
+                                           },
+                              "SOC2_Type2":  {
+                                                 "applicable":  true,
+                                                 "status":  "COMPLIANT",
+                                                 "evidence_reference":  "EVIDENCE-SOC2-0054"
+                                             },
+                              "PCI-DSS_v4":  {
+                                                 "applicable":  false,
+                                                 "status":  "NOT_APPLICABLE",
+                                                 "evidence_reference":  null
+                                             },
+                              "privacy_review":  {
+                                                     "applicable":  true,
+                                                     "status":  "COMPLIANT",
+                                                     "last_review_date":  "2026-08-15"
+                                                 }
+                          },
+    "technical_identity":  {
+                               "hostname":  "MOCK-VIRTUALIZATION-0054",
+                               "ip_address":  "198.51.100.64",
+                               "mac_address":  "02:00:5E:00:36:01",
+                               "network_segment":  "CORPORATE-ASSETS",
+                               "vlan_id":  354
+                           },
+    "procurement":  {
+                        "purchase_order":  "PO-MOCK-2026-0054",
+                        "vendor":  "Red Hat",
+                        "acquisition_date":  "2026-01-15",
+                        "deployment_date":  "2026-02-01",
+                        "purchase_price":  6400,
+                        "currency":  "USD",
+                        "lease_or_owned":  "OWNED"
+                    },
+    "warranty_and_support":  {
+                                 "support_contract":  "SUPPORT-MOCK-0054",
+                                 "support_provider":  "Red Hat",
+                                 "support_level":  "PREMIUM",
+                                 "support_expiration_date":  "2029-02-01"
+                             },
+    "maintenance":  {
+                        "maintenance_status":  "SCHEDULED",
+                        "maintenance_frequency":  "QUARTERLY",
+                        "last_maintenance_date":  "2026-08-01",
+                        "next_maintenance_date":  "2026-11-01",
+                        "open_incidents":  0,
+                        "maintenance_history":  [
+                                                    {
+                                                        "maintenance_id":  "MAINT-MOCK-0054",
+                                                        "date":  "2026-08-01",
+                                                        "type":  "PREVENTIVE",
+                                                        "status":  "COMPLETED"
+                                                    }
+                                                ]
+                    },
+    "service_management":  {
+                               "business_service":  "RHEL 9 VM",
+                               "environment":  "PRODUCTION",
+                               "service_owner":  "OWNER-MOCK-0054",
+                               "support_queue":  "QUEUE-SECURITY",
+                               "contract_reference":  "CONTRACT-MOCK-0054"
+                           },
+    "tags":  [
+                 "mock-data",
+                 "virtualization",
+                 "apac"
+             ],
+    "notes":  "Synthetic enterprise asset record. All identifiers, network values and references are fictional and reserved for testing.",
+    "record_type":  "ASSET",
+    "location_id":  "LOC-APAC-SG-SIN-01",
+    "data_center_id":  "DC-APAC-MOCK-54",
+    "internet_circuit_ids":  [
+                                 "CIRCUIT-APAC-SG-SIN-01"
+                             ],
+    "primary_connectivity_provider":  "Example Pacific Telecom"
+}

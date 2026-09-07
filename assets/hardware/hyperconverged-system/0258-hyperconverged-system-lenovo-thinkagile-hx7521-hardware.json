@@ -1,0 +1,110 @@
+﻿{
+    "asset_id":  "ASSET-REF-0258",
+    "asset_tag":  "REF-APAC-0258",
+    "inventory_id":  "REFERENCE-2026-0258",
+    "serial_number":  "MOCK-LENOVO-0258",
+    "manufacturer":  "Lenovo",
+    "model":  "ThinkAgile HX7521",
+    "asset_class":  "HARDWARE",
+    "asset_category":  "HYPERCONVERGED_SYSTEM",
+    "record_type":  "PRODUCT_REFERENCE",
+    "lifecycle_status":  "PROCURED",
+    "operational_status":  "NOT_DEPLOYED",
+    "active":  true,
+    "reference_scope":  {
+                            "manufacturer":  "Lenovo",
+                            "official_product_family":  "ThinkAgile HX7521",
+                            "scope":  "Lenovo official product family reference",
+                            "reference_date":  "2026-09-07",
+                            "sku_or_configuration":  "MOCK-LENOVO-0258",
+                            "note":  "Family and model name are based on a public Lenovo portfolio. Identifiers, pricing and deployment values are synthetic."
+                        },
+    "global_allocation":  {
+                              "region":  "APAC",
+                              "country":  "Singapore",
+                              "corporate_entity":  "Example Global Technology Inc.",
+                              "business_unit":  "Global Infrastructure",
+                              "department":  "Network Services",
+                              "cost_center":  "CC-NET-SG-0258",
+                              "assigned_user":  null,
+                              "shared_resource":  "PRODUCT-REFERENCE-0258",
+                              "site_code":  "APAC-STANDARDS",
+                              "location":  "Singapore Product Standards Lab",
+                              "data_center":  null
+                          },
+    "data_classification":  "INTERNAL",
+    "compliance_matrix":  {
+                              "ISO27001":  {
+                                               "applicable":  true,
+                                               "status":  "REVIEW_REQUIRED",
+                                               "evidence_reference":  "EVIDENCE-ISO27001-0258"
+                                           },
+                              "SOC2_Type2":  {
+                                                 "applicable":  true,
+                                                 "status":  "REVIEW_REQUIRED",
+                                                 "evidence_reference":  "EVIDENCE-SOC2-0258"
+                                             },
+                              "PCI-DSS_v4":  {
+                                                 "applicable":  false,
+                                                 "status":  "NOT_APPLICABLE",
+                                                 "evidence_reference":  null
+                                             },
+                              "vendor_security_review":  {
+                                                             "applicable":  true,
+                                                             "status":  "PENDING",
+                                                             "review_reference":  "VENDOR-REVIEW-0258"
+                                                         }
+                          },
+    "technical_identity":  {
+                               "hostname":  "REF-LENOVO-0258",
+                               "ip_address":  null,
+                               "mac_address":  null,
+                               "network_segment":  null,
+                               "vlan_id":  null
+                           },
+    "procurement":  {
+                        "purchase_order":  null,
+                        "vendor":  "Lenovo",
+                        "acquisition_date":  null,
+                        "deployment_date":  null,
+                        "purchase_price":  null,
+                        "currency":  "USD",
+                        "lease_or_owned":  "REFERENCE_ONLY"
+                    },
+    "warranty_and_support":  {
+                                 "support_contract":  null,
+                                 "support_provider":  "Lenovo",
+                                 "support_level":  "VENDOR_REFERENCE",
+                                 "support_expiration_date":  null
+                             },
+    "maintenance":  {
+                        "maintenance_status":  "NOT_DEPLOYED",
+                        "maintenance_frequency":  null,
+                        "last_maintenance_date":  null,
+                        "next_maintenance_date":  null,
+                        "open_incidents":  0,
+                        "maintenance_history":  [
+
+                                                ]
+                    },
+    "service_management":  {
+                               "business_service":  "Technology Product Standards",
+                               "environment":  "REFERENCE",
+                               "service_owner":  "ARCHITECTURE-REFERENCE-TEAM",
+                               "support_queue":  "PRODUCT-STANDARDS",
+                               "contract_reference":  null
+                           },
+    "tags":  [
+                 "official-product-family",
+                 "mock-reference",
+                 "lenovo",
+                 "hyperconverged_system"
+             ],
+    "notes":  "Synthetic Lenovo product-family reference. It is not a purchase entitlement or proof of current availability.",
+    "location_id":  "LOC-APAC-SG-SIN-01",
+    "data_center_id":  "DC-APAC-SG-SIN-01",
+    "internet_circuit_ids":  [
+                                 "CIRCUIT-APAC-SG-SIN-01"
+                             ],
+    "primary_connectivity_provider":  "Example Pacific Telecom"
+}

@@ -1,0 +1,106 @@
+﻿{
+    "asset_id":  "ASSET-MOCK-0053",
+    "asset_tag":  "ITAM-EMEA-MOCK-0053",
+    "inventory_id":  "INV-2026-0053",
+    "serial_number":  "MOCK-MICRO-0053-X7K2",
+    "manufacturer":  "Microsoft",
+    "model":  "Windows Server 2022 VM",
+    "asset_class":  "HARDWARE",
+    "asset_category":  "VIRTUALIZATION",
+    "lifecycle_status":  "DEPLOYED",
+    "operational_status":  "ACTIVE",
+    "active":  true,
+    "global_allocation":  {
+                              "region":  "EMEA",
+                              "country":  "Germany",
+                              "corporate_entity":  "Example Global Technology Inc.",
+                              "business_unit":  "Global Technology",
+                              "department":  "Infrastructure",
+                              "cost_center":  "CC-INFRA-DE-0053",
+                              "assigned_user":  "USER-MOCK-0053",
+                              "shared_resource":  null,
+                              "site_code":  "EMEA-MOCK-53",
+                              "location":  "Germany Enterprise Site",
+                              "data_center":  "DC-EMEA-MOCK-53"
+                          },
+    "data_classification":  "CONFIDENTIAL",
+    "compliance_matrix":  {
+                              "ISO27001":  {
+                                               "applicable":  true,
+                                               "status":  "COMPLIANT",
+                                               "evidence_reference":  "EVIDENCE-ISO27001-0053"
+                                           },
+                              "SOC2_Type2":  {
+                                                 "applicable":  true,
+                                                 "status":  "COMPLIANT",
+                                                 "evidence_reference":  "EVIDENCE-SOC2-0053"
+                                             },
+                              "PCI-DSS_v4":  {
+                                                 "applicable":  false,
+                                                 "status":  "NOT_APPLICABLE",
+                                                 "evidence_reference":  null
+                                             },
+                              "privacy_review":  {
+                                                     "applicable":  true,
+                                                     "status":  "COMPLIANT",
+                                                     "last_review_date":  "2026-08-15"
+                                                 }
+                          },
+    "technical_identity":  {
+                               "hostname":  "MOCK-VIRTUALIZATION-0053",
+                               "ip_address":  "198.51.100.63",
+                               "mac_address":  "02:00:5E:00:35:01",
+                               "network_segment":  "CORPORATE-ASSETS",
+                               "vlan_id":  353
+                           },
+    "procurement":  {
+                        "purchase_order":  "PO-MOCK-2026-0053",
+                        "vendor":  "Microsoft",
+                        "acquisition_date":  "2026-01-15",
+                        "deployment_date":  "2026-02-01",
+                        "purchase_price":  6300,
+                        "currency":  "USD",
+                        "lease_or_owned":  "OWNED"
+                    },
+    "warranty_and_support":  {
+                                 "support_contract":  "SUPPORT-MOCK-0053",
+                                 "support_provider":  "Microsoft",
+                                 "support_level":  "PREMIUM",
+                                 "support_expiration_date":  "2029-02-01"
+                             },
+    "maintenance":  {
+                        "maintenance_status":  "SCHEDULED",
+                        "maintenance_frequency":  "QUARTERLY",
+                        "last_maintenance_date":  "2026-08-01",
+                        "next_maintenance_date":  "2026-11-01",
+                        "open_incidents":  0,
+                        "maintenance_history":  [
+                                                    {
+                                                        "maintenance_id":  "MAINT-MOCK-0053",
+                                                        "date":  "2026-08-01",
+                                                        "type":  "PREVENTIVE",
+                                                        "status":  "COMPLETED"
+                                                    }
+                                                ]
+                    },
+    "service_management":  {
+                               "business_service":  "Windows Server 2022 VM",
+                               "environment":  "PRODUCTION",
+                               "service_owner":  "OWNER-MOCK-0053",
+                               "support_queue":  "QUEUE-INFRASTRUCTURE",
+                               "contract_reference":  "CONTRACT-MOCK-0053"
+                           },
+    "tags":  [
+                 "mock-data",
+                 "virtualization",
+                 "emea"
+             ],
+    "notes":  "Synthetic enterprise asset record. All identifiers, network values and references are fictional and reserved for testing.",
+    "record_type":  "ASSET",
+    "location_id":  "LOC-EMEA-GB-LON-01",
+    "data_center_id":  "DC-EMEA-MOCK-53",
+    "internet_circuit_ids":  [
+                                 "CIRCUIT-EMEA-GB-LON-01"
+                             ],
+    "primary_connectivity_provider":  "Example Global Fiber"
+}
