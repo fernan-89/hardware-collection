@@ -235,7 +235,7 @@ Use synthetic data only:
 3. Create `assets/<asset_class>/<asset_category>/` automatically.
 4. Derive every filename from the actual JSON fields.
 5. Remove or replace duplicates by `manufacturer + model`.
-6. Generate or update `README.md` and an MIT `LICENSE`.
+6. Generate or update `README.md`; keep the existing `LICENSE` (PolyForm Strict License 1.0.0) unchanged.
 7. Recursively validate every JSON file.
 8. Do not leave generation scripts in the final repository.
 
