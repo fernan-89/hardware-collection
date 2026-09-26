@@ -89,7 +89,7 @@ The files can be consumed directly by scripts, test fixtures, ETL jobs or schema
 
 ## License
 
-This repository is distributed under the MIT License. See [LICENSE](LICENSE).
+Licensed under the [PolyForm Strict License 1.0.0](LICENSE): you may read and use this software for noncommercial purposes only. Modifying it, creating derivative works, redistributing it and any commercial use are not permitted without a separate written license. This software is not open source.
 
 ## One-Shot Generation Prompt
 
